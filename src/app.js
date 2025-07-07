@@ -9,7 +9,7 @@ some middleware configuration is required
 
 1. CORS(cross origin resource sharing): allows our app(backend) to connect with our frontend
 
-2.cookieParser: to from crud operation on browser cookie
+2.cookieParser: to perform crud operations on browser cookie
 
 most middleware config is done using app.use()
 */
