@@ -30,6 +30,11 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}))
 //to store some files,images on our server
 app.use(express.static("public"))
 
+//import routes
+import { userRouter } from './routes/user.routes.js'
+
+app.use("/api/v1/user",userRouter)
+
 
 
 export { app }
