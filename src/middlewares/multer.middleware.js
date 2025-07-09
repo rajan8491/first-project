@@ -9,7 +9,7 @@ this is where you tell multer where and how to store uploaded files
 */
 const storage = multer.diskStorage({
     destination: function (req, file, cb){
-        cb(null, "../public/temp")
+        cb(null, "./public/temp")
         /*
         must be called to tell multer that 
         (1)there is no error (or report one) 
