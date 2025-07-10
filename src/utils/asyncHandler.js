@@ -13,14 +13,6 @@ export {asyncHandler}
 
 
 
-
-
-
-
-
-
-
-
 // higher order function :- function which accept a function as argument and return another function 
 
 
